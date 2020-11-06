@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.addbook.jdbctest.TestClass" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-06T16:35:17" hostname="DESKTOP-9T3G1G1" time="0.754">
+  <properties/>
+  <testcase name="Check_DataShouldGetInsertedInTables" classname="com.addbook.jdbctest.TestClass" time="0.754"/>
+  <system-out><![CDATA[Driver Loaded..
+  com.mysql.jdbc.Driver
+  com.mysql.fabric.jdbc.FabricMySQLDriver
+Connecting to the Database... jdbc:mysql://localhost:3306/addressbookdb?useSSL=false
+Connection was successful !!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
