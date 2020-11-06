@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.addbook.jdbctest.TestClass" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-11-06T12:20:22" hostname="DESKTOP-9T3G1G1" time="1.199">
+  <properties/>
+  <testcase name="check_retrieveData" classname="com.addbook.jdbctest.TestClass" time="1.083"/>
+  <testcase name="ShouldReturnDataByCity" classname="com.addbook.jdbctest.TestClass" time="0.069"/>
+  <testcase name="ShouldReturnDataByDate" classname="com.addbook.jdbctest.TestClass" time="0.012"/>
+  <testcase name="Check_DataShouldGetUpdated" classname="com.addbook.jdbctest.TestClass" time="0.033"/>
+  <system-out><![CDATA[Driver Loaded..
+  com.mysql.jdbc.Driver
+  com.mysql.fabric.jdbc.FabricMySQLDriver
+Connecting to the Database... jdbc:mysql://localhost:3306/addressbookdb?useSSL=false
+Connection was successful !!
+Driver Loaded..
+  com.mysql.jdbc.Driver
+  com.mysql.fabric.jdbc.FabricMySQLDriver
+Connecting to the Database... jdbc:mysql://localhost:3306/addressbookdb?useSSL=false
+Connection was successful !!
+Driver Loaded..
+  com.mysql.jdbc.Driver
+  com.mysql.fabric.jdbc.FabricMySQLDriver
+Connecting to the Database... jdbc:mysql://localhost:3306/addressbookdb?useSSL=false
+Connection was successful !!
+Driver Loaded..
+  com.mysql.jdbc.Driver
+  com.mysql.fabric.jdbc.FabricMySQLDriver
+Connecting to the Database... jdbc:mysql://localhost:3306/addressbookdb?useSSL=false
+Connection was successful !!
+1
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

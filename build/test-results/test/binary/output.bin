@@ -1,0 +1,21 @@
+Driver Loaded..
+  com.mysql.jdbc.Driver
++  com.mysql.fabric.jdbc.FabricMySQLDriver
+VConnecting to the Database... jdbc:mysql://localhost:3306/addressbookdb?useSSL=false
+Connection was successful !!
+Driver Loaded..
+  com.mysql.jdbc.Driver
++  com.mysql.fabric.jdbc.FabricMySQLDriver
+VConnecting to the Database... jdbc:mysql://localhost:3306/addressbookdb?useSSL=false
+Connection was successful !!
+Driver Loaded..
+  com.mysql.jdbc.Driver
++  com.mysql.fabric.jdbc.FabricMySQLDriver
+VConnecting to the Database... jdbc:mysql://localhost:3306/addressbookdb?useSSL=false
+Connection was successful !!
+Driver Loaded..
+  com.mysql.jdbc.Driver
++  com.mysql.fabric.jdbc.FabricMySQLDriver
+VConnecting to the Database... jdbc:mysql://localhost:3306/addressbookdb?useSSL=false
+Connection was successful !!
+1

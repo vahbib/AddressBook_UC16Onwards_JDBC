@@ -9,6 +9,40 @@ public class Details {
     private String city;
     private String state;
     private long zipCode;
+    private String type;
+    private String personName;
+    private String date;
+
+    public Details(String firstName, String lastName, long phoneNumber, String emailId, String date) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.phoneNumber = phoneNumber;
+        this.emailId = emailId;
+        this.date = date;
+    }
+
+    public Details(String firstName, String lastName, long phoneNumber, String emailId, String address, String city, String state, long zipCode, String type, String personName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.phoneNumber = phoneNumber;
+        this.emailId = emailId;
+        this.address = address;
+        this.city = city;
+        this.state = state;
+        this.zipCode = zipCode;
+        this.personName = personName;
+        this.type = type;
+    }
+    public Details(String firstName, String lastName, long phoneNumber, String emailId, String address, String state, long zipCode) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.phoneNumber = phoneNumber;
+        this.emailId = emailId;
+        this.state = state;
+        this.zipCode = zipCode;
+        this.address = address;
+    }
+
 
     public Details(String firstName, String lastName, long phoneNumber, String emailId, String address, String city,
                    String state, long zipCode) {
@@ -24,6 +58,29 @@ public class Details {
     }
     public Details() {
         super();
+    }
+
+    public String getPersonName() {
+        return personName;
+    }
+
+    public void setPersonName(String personName) {
+        this.personName = personName;
+    }
+
+    public String getType() {
+        return type;
+    }
+    public void setDate(String date) {
+        this.date = date;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setType(String type) {
+        this.type = type;
     }
 
     public String getCity() {
