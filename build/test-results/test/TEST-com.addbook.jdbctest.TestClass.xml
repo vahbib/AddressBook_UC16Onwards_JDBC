@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.addbook.jdbctest.TestClass" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-11-06T06:03:34" hostname="DESKTOP-9T3G1G1" time="1.11">
+  <properties/>
+  <testcase name="check_retrieveData" classname="com.addbook.jdbctest.TestClass" time="0.587"/>
+  <testcase name="Check_DataShouldGetUpdated" classname="com.addbook.jdbctest.TestClass" time="0.522"/>
+  <system-out><![CDATA[Driver Loaded..
+  com.mysql.jdbc.Driver
+  com.mysql.fabric.jdbc.FabricMySQLDriver
+Connecting to the Database... jdbc:mysql://localhost:3306/addressbookdb?useSSL=false
+Connection was successful !!
+Driver Loaded..
+  com.mysql.jdbc.Driver
+  com.mysql.fabric.jdbc.FabricMySQLDriver
+Connecting to the Database... jdbc:mysql://localhost:3306/addressbookdb?useSSL=false
+Connection was successful !!
+1
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
