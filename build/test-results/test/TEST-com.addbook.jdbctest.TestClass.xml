@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.addbook.jdbctest.TestClass" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-09T05:26:16" hostname="DESKTOP-9T3G1G1" time="0.732">
+  <properties/>
+  <testcase name="AddMultipleContactUsingThread" classname="com.addbook.jdbctest.TestClass" time="0.732"/>
+  <system-out><![CDATA[Driver Loaded..
+  com.mysql.jdbc.Driver
+  com.mysql.fabric.jdbc.FabricMySQLDriver
+Connecting to the Database... jdbc:mysql://localhost:3306/addressbookdb?useSSL=false
+Driver Loaded..
+  com.mysql.jdbc.Driver
+  com.mysql.fabric.jdbc.FabricMySQLDriver
+Connecting to the Database... jdbc:mysql://localhost:3306/addressbookdb?useSSL=false
+Driver Loaded..
+  com.mysql.jdbc.Driver
+  com.mysql.fabric.jdbc.FabricMySQLDriver
+Connecting to the Database... jdbc:mysql://localhost:3306/addressbookdb?useSSL=false
+Connection was successful !!
+Connection was successful !!
+Connection was successful !!
+]]></system-out>
+  <system-err><![CDATA[com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '3' for key 'name_book.PRIMARY'
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:403)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3933)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3869)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2524)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2675)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeUpdateInternal(StatementImpl.java:1536)
+	at com.mysql.jdbc.StatementImpl.executeLargeUpdate(StatementImpl.java:2585)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1464)
+	at com.addbook.jdbc.DBConnection.addContactAtomicTransaction(DBConnection.java:138)
+	at com.addbook.jdbc.DBConnection.lambda$addContactsWithThread$0(DBConnection.java:171)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'name_book.PRIMARY'
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:403)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3933)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3869)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2524)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2675)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeUpdateInternal(StatementImpl.java:1536)
+	at com.mysql.jdbc.StatementImpl.executeLargeUpdate(StatementImpl.java:2585)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1464)
+	at com.addbook.jdbc.DBConnection.addContactAtomicTransaction(DBConnection.java:138)
+	at com.addbook.jdbc.DBConnection.lambda$addContactsWithThread$0(DBConnection.java:171)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+]]></system-err>
+</testsuite>
