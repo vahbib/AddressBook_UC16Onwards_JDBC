@@ -1,0 +1,12 @@
+{
+  "contacts": [
+	{
+		"id": 1,
+		"first name": "Bibhav",
+		"last name": "Singh",
+		"phone": "4214215",
+		"email": "bibhavsingh@sa.com",
+		"join date": "2018-05-02"
+	}
+  ]
+}
